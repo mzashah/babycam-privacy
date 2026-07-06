@@ -5,126 +5,155 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>BabyCam — Privacy Policy</title>
 <style>
-  :root { color-scheme: light dark; }
+  :root { color-scheme: light; }
   * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
   body {
-    margin: 0; padding: 2rem 1.25rem 4rem;
-    font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-    max-width: 44rem; margin-inline: auto;
-    color: #1c1c22; background: #ffffff;
+    margin: 0;
+    padding: 40px 20px 72px;
+    background: #eef1f8;
+    color: #1b2233;
+    font: 16px/1.7 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   }
-  @media (prefers-color-scheme: dark) {
-    body { color: #e6e6ea; background: #14141a; }
-    a { color: #8ea2ff; }
-    .card { background: #1d1d26; border-color: #2c2c38; }
-    th { background: #22222c; }
-    td, th { border-color: #2c2c38; }
+  .sheet {
+    max-width: 760px; margin: 0 auto;
+    background: #ffffff;
+    border: 1px solid #e2e7f1;
+    border-radius: 16px;
+    box-shadow: 0 12px 40px rgba(24,36,72,.08);
+    padding: 40px 36px 44px;
   }
-  h1 { font-size: 1.75rem; margin: 0 0 .25rem; }
-  h2 { font-size: 1.2rem; margin: 2rem 0 .5rem; }
-  .sub { color: #6a6a78; margin: 0 0 1.5rem; font-size: .95rem; }
-  a { color: #3b53d6; }
-  .card { background: #f6f6f9; border: 1px solid #e6e6ee; border-radius: 12px; padding: 1rem 1.25rem; margin: 1rem 0; }
-  table { border-collapse: collapse; width: 100%; margin: 1rem 0; font-size: .95rem; }
-  td, th { border: 1px solid #e6e6ee; padding: .5rem .65rem; text-align: left; vertical-align: top; }
-  th { background: #f0f0f5; }
-  .wrap { overflow-x: auto; }
-  ul { padding-left: 1.25rem; }
-  code { font-size: .9em; }
-  footer { margin-top: 3rem; color: #6a6a78; font-size: .9rem; }
+  .brand { display: flex; align-items: center; gap: 12px; margin-bottom: 6px; }
+  .brand .mark {
+    width: 40px; height: 40px; border-radius: 11px; flex: none;
+    background: linear-gradient(150deg, #4b53c4, #2f9e6a);
+    display: flex; align-items: center; justify-content: center;
+    color: #fff; font-size: 20px;
+  }
+  h1 { font-size: 27px; line-height: 1.2; margin: 0; letter-spacing: -.4px; color: #14192b; }
+  .meta { color: #5b6a86; font-size: 14px; margin: 4px 0 24px; }
+  .meta code { background: #eef1f8; padding: 1px 6px; border-radius: 5px; font-size: 12.5px; color: #3a465f; }
+  .callout {
+    background: #e9f6ef;
+    border: 1px solid #bfe6d1;
+    border-left: 4px solid #2f9e6a;
+    border-radius: 10px;
+    padding: 16px 18px;
+    margin: 4px 0 28px;
+    color: #17402c;
+  }
+  .callout strong { color: #0f3421; }
+  h2 {
+    font-size: 18px; margin: 30px 0 10px; color: #14192b;
+    padding-bottom: 7px; border-bottom: 2px solid #eef1f8;
+  }
+  p, li { color: #29324a; }
+  a { color: #3742c4; }
+  ul { padding-left: 20px; margin: 10px 0; }
+  li { margin: 5px 0; }
+  strong { color: #14192b; }
+  .wrap { overflow-x: auto; margin: 14px 0; }
+  table { border-collapse: collapse; width: 100%; font-size: 14.5px; }
+  th, td { border: 1px solid #d9e0ee; padding: 9px 12px; text-align: left; vertical-align: top; }
+  th { background: #eaecfb; color: #232a54; font-weight: 700; }
+  td { color: #29324a; }
+  tr:nth-child(even) td { background: #f7f9fd; }
+  footer { max-width: 760px; margin: 22px auto 0; color: #6b7690; font-size: 13.5px; text-align: center; }
 </style>
 </head>
 <body>
+<div class="sheet">
 
-<h1>BabyCam — Privacy Policy</h1>
-<p class="sub">Last updated: 6 July 2026 · App: <strong>BabyCam</strong> (<code>com.colworx.babycam</code>) · Developer: Colworx</p>
+  <div class="brand">
+    <div class="mark">👶</div>
+    <h1>BabyCam — Privacy Policy</h1>
+  </div>
+  <p class="meta">Last updated: 6 July 2026 · App: <strong>BabyCam</strong> (<code>com.colworx.babycam</code>) · Developer: Zuhaib Ali Shah</p>
 
-<div class="card">
-  <strong>In short:</strong> BabyCam turns two of your own phones into a baby monitor. The live
-  video and audio go <strong>directly between your two devices</strong>, end-to-end encrypted — we
-  never see or store them. We use Google Firebase for anonymous usage analytics and crash
-  diagnostics to keep the app working. We do not sell your data, and there are no accounts.
+  <div class="callout">
+    <strong>In short:</strong> BabyCam turns two of your own phones into a baby monitor. The live
+    video and audio go <strong>directly between your two devices</strong>, end-to-end encrypted — we
+    never see or store them. We use Google Firebase for anonymous usage analytics and crash
+    diagnostics to keep the app working. We do not sell your data, and there are no accounts.
+  </div>
+
+  <h2>1. Who we are</h2>
+  <p>BabyCam is developed by Zuhaib Ali Shah. For any privacy question, contact
+  <a href="mailto:mz.ashah@outlook.com">mz.ashah@outlook.com</a>.</p>
+
+  <h2>2. Camera, microphone and audio/video streams</h2>
+  <ul>
+    <li>The <strong>baby device</strong> captures camera and microphone; the <strong>parent
+    device</strong> receives them. Streaming is peer-to-peer (WebRTC) and <strong>encrypted in
+    transit</strong> (DTLS-SRTP).</li>
+    <li>Audio/video is <strong>never uploaded to us or stored on any server</strong>. It exists only
+    live, on your two devices, during a session.</li>
+    <li>Snapshots you choose to save are written only to <strong>your device's local gallery</strong>.</li>
+  </ul>
+
+  <h2>3. Pairing &amp; connection data</h2>
+  <ul>
+    <li>Devices pair with a short <strong>4-digit code</strong> shown on the baby device and typed on
+    the parent device. Pairing information is stored <strong>only on your devices</strong>.</li>
+    <li>To help the two phones find each other, small connection-setup ("signaling") messages pass
+    through a third-party MQTT message broker (HiveMQ). These messages are
+    <strong>additionally AES-256-GCM encrypted</strong> by the app, so the broker only ever relays
+    ciphertext. They do not contain your audio or video.</li>
+    <li>When the two phones are on different networks, media may be relayed through a TURN server
+    (Cloudflare) purely to traverse firewalls. Relayed media stays end-to-end encrypted.</li>
+  </ul>
+
+  <h2>4. Analytics &amp; diagnostics (Google Firebase)</h2>
+  <p>To understand how the app is used and to fix crashes, we use Google Firebase, which acts as a
+  data processor on our behalf:</p>
+  <div class="wrap">
+  <table>
+    <tr><th>Service</th><th>What it collects</th><th>Why</th></tr>
+    <tr><td>Firebase Analytics</td><td>Anonymous app-usage events (e.g. pairing completed, camera
+      toggled), device model, OS version, coarse app-interaction data</td><td>Understand feature
+      usage and stability</td></tr>
+    <tr><td>Firebase Crashlytics</td><td>Crash stack traces, device model/OS, a random per-session
+      identifier, and whether the device was in "baby" or "parent" mode</td><td>Diagnose and fix
+      crashes</td></tr>
+    <tr><td>Firebase Remote Config</td><td>Downloads configuration only; sends no personal data</td>
+      <td>Update settings (e.g. relay servers) without an app update</td></tr>
+  </table>
+  </div>
+  <p>We <strong>do not</strong> collect your name, email, contacts, precise location, or the content
+  of your video/audio. The 4-digit pairing code is <strong>not</strong> sent to Firebase.
+  Firebase's own handling of this data is governed by
+  <a href="https://firebase.google.com/support/privacy" rel="noopener">Google's privacy terms</a>.</p>
+
+  <h2>5. Permissions we request</h2>
+  <div class="wrap">
+  <table>
+    <tr><th>Permission</th><th>Purpose</th></tr>
+    <tr><td>Camera</td><td>Baby-mode video (baby device only)</td></tr>
+    <tr><td>Microphone</td><td>Baby-mode audio and two-way talk</td></tr>
+    <tr><td>Notifications</td><td>Show the ongoing-monitor notification and alerts</td></tr>
+    <tr><td>Foreground service (camera/microphone)</td><td>Keep monitoring while the screen is off</td></tr>
+    <tr><td>Run at startup / ignore battery optimizations</td><td>Resume monitoring reliably</td></tr>
+    <tr><td>Biometric</td><td>Optional app lock (stays on device)</td></tr>
+  </table>
+  </div>
+
+  <h2>6. Data retention &amp; deletion</h2>
+  <ul>
+    <li>Audio/video is never retained — it is not stored anywhere.</li>
+    <li>Pairing data lives on your device; clearing it ("Forget pairing") or uninstalling removes it.</li>
+    <li>Analytics/crash data held by Firebase can be deleted on request — email
+    <a href="mailto:mz.ashah@outlook.com">mz.ashah@outlook.com</a> and we will action deletion via
+    Firebase.</li>
+  </ul>
+
+  <h2>7. Children's privacy</h2>
+  <p>BabyCam is a tool for parents/guardians. It is not directed at children as users and does not
+  knowingly collect personal information from children. The camera simply serves the caregiver.</p>
+
+  <h2>8. Changes to this policy</h2>
+  <p>We may update this policy; material changes will be reflected by the "Last updated" date above.</p>
+
 </div>
-
-<h2>1. Who we are</h2>
-<p>BabyCam is developed by Colworx. For any privacy question, contact
-<a href="mailto:mz.ashah@outlook.com">mz.ashah@outlook.com</a>.</p>
-
-<h2>2. Camera, microphone and audio/video streams</h2>
-<ul>
-  <li>The <strong>baby device</strong> captures camera and microphone; the <strong>parent
-  device</strong> receives them. Streaming is peer-to-peer (WebRTC) and <strong>encrypted in
-  transit</strong> (DTLS-SRTP).</li>
-  <li>Audio/video is <strong>never uploaded to us or stored on any server</strong>. It exists only
-  live, on your two devices, during a session.</li>
-  <li>Snapshots you choose to save are written only to <strong>your device's local gallery</strong>.</li>
-</ul>
-
-<h2>3. Pairing &amp; connection data</h2>
-<ul>
-  <li>Devices pair with a short <strong>4-digit code</strong> shown on the baby device and typed on
-  the parent device. Pairing information is stored <strong>only on your devices</strong>.</li>
-  <li>To help the two phones find each other, small connection-setup ("signaling") messages pass
-  through a third-party MQTT message broker (HiveMQ). These messages are
-  <strong>additionally AES-256-GCM encrypted</strong> by the app, so the broker only ever relays
-  ciphertext. They do not contain your audio or video.</li>
-  <li>When the two phones are on different networks, media may be relayed through a TURN server
-  (Cloudflare) purely to traverse firewalls. Relayed media stays end-to-end encrypted.</li>
-</ul>
-
-<h2>4. Analytics &amp; diagnostics (Google Firebase)</h2>
-<p>To understand how the app is used and to fix crashes, we use Google Firebase, which acts as a
-data processor on our behalf:</p>
-<div class="wrap">
-<table>
-  <tr><th>Service</th><th>What it collects</th><th>Why</th></tr>
-  <tr><td>Firebase Analytics</td><td>Anonymous app-usage events (e.g. pairing completed, camera
-    toggled), device model, OS version, coarse app-interaction data</td><td>Understand feature
-    usage and stability</td></tr>
-  <tr><td>Firebase Crashlytics</td><td>Crash stack traces, device model/OS, a random per-session
-    identifier, and whether the device was in "baby" or "parent" mode</td><td>Diagnose and fix
-    crashes</td></tr>
-  <tr><td>Firebase Remote Config</td><td>Downloads configuration only; sends no personal data</td>
-    <td>Update settings (e.g. relay servers) without an app update</td></tr>
-</table>
-</div>
-<p>We <strong>do not</strong> collect your name, email, contacts, precise location, or the content
-of your video/audio. The 4-digit pairing code is <strong>not</strong> sent to Firebase.
-Firebase's own handling of this data is governed by
-<a href="https://firebase.google.com/support/privacy" rel="noopener">Google's privacy terms</a>.</p>
-
-<h2>5. Permissions we request</h2>
-<div class="wrap">
-<table>
-  <tr><th>Permission</th><th>Purpose</th></tr>
-  <tr><td>Camera</td><td>Baby-mode video (baby device only)</td></tr>
-  <tr><td>Microphone</td><td>Baby-mode audio and two-way talk</td></tr>
-  <tr><td>Notifications</td><td>Show the ongoing-monitor notification and alerts</td></tr>
-  <tr><td>Foreground service (camera/microphone)</td><td>Keep monitoring while the screen is off</td></tr>
-  <tr><td>Run at startup / ignore battery optimizations</td><td>Resume monitoring reliably</td></tr>
-  <tr><td>Biometric</td><td>Optional app lock (stays on device)</td></tr>
-</table>
-</div>
-
-<h2>6. Data retention &amp; deletion</h2>
-<ul>
-  <li>Audio/video is never retained — it is not stored anywhere.</li>
-  <li>Pairing data lives on your device; clearing it ("Forget pairing") or uninstalling removes it.</li>
-  <li>Analytics/crash data held by Firebase can be deleted on request — email us at
-  <a href="mailto:mz.ashah@outlook.com">mz.ashah@outlook.com</a> and we will action deletion via
-  Firebase.</li>
-</ul>
-
-<h2>7. Children's privacy</h2>
-<p>BabyCam is a tool for parents/guardians. It is not directed at children as users and does not
-knowingly collect personal information from children. The camera simply serves the caregiver.</p>
-
-<h2>8. Changes to this policy</h2>
-<p>We may update this policy; material changes will be reflected by the "Last updated" date above.</p>
-
-<footer>
-  BabyCam · Colworx · Contact: <a href="mailto:mz.ashah@outlook.com">mz.ashah@outlook.com</a>
-</footer>
-
+<footer>BabyCam · Zuhaib Ali Shah · Contact: <a href="mailto:mz.ashah@outlook.com">mz.ashah@outlook.com</a></footer>
 </body>
 </html>
